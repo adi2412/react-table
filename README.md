@@ -1,6 +1,6 @@
 # React Table
 
-React Table is a simple, light weight table built on React. It makes no assumptions about your data and allows the user to define how the table reacts to pagination, filtering and sorting.
+React Table is a simple, light weight table built on React. It makes no assumptions about your data and allows you to define how the table reacts to pagination, filtering and sorting.
 
 # Usage
 
@@ -73,6 +73,8 @@ Set the `onPageChange` prop with your event handler.
 ## Styling
 
 You can add styling to the table by passing CSS classes or IDs to the table. This allows you to use table styling from frameworks like bootstrap.
+
+A basic stylesheet is available with this project. However, it is very simplistic and it is recommended that you use your own styling.
 
 # License
 

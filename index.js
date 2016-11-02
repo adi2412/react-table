@@ -100,7 +100,15 @@ class ReactTableExample extends React.Component
 
       this.initialData.forEach((element) => 
       {
-        if(element.age == Number.parseInt(filterInput))
+        if(element.house === filterInput)
+        {
+          filteredData.push(element);
+        }
+      });
+
+      this.nextData.forEach((element) => 
+      {
+        if(element.house === filterInput)
         {
           filteredData.push(element);
         }
