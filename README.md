@@ -70,6 +70,10 @@ Similar to sorting, you define a handler on the pagination event. The handler is
 
 Set the `onPageChange` prop with your event handler.
 
+## Styling
+
+You can add styling to the table by passing CSS classes or IDs to the table. This allows you to use table styling from frameworks like bootstrap.
+
 # License
 
 MIT License

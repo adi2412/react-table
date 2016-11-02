@@ -89,13 +89,14 @@ class ReactTable extends React.Component{
 
   render()
   {
+    const { data, columns, onPageChange, onFilter, onSort, ...props } = this.props;
     return (
       <div className="react-table">
         {this.props.onFilter? 
           <div className="filter"><input type="text" placeholder="Search table" value={this.state.filterInput} onChange={this.onFilterInputChange.bind(this)}/></div> 
           : ''
         }
-        <table>
+        <table {...props}>
           <thead>
             <tr key="table-header">{this.props.columns.map(this.generateColumn, this)}</tr>
           </thead>
