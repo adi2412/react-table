@@ -72,7 +72,7 @@ Set the `onPageChange` prop with your event handler.
 
 ## Styling
 
-You can add styling to the table by passing CSS classes or IDs to the table. This allows you to use table styling from frameworks like bootstrap.
+You can add styling to the table by passing CSS classes or IDs using the default className and ID prop. These are passed to the underlying table element. This allows you to use table styling from frameworks like bootstrap.
 
 A basic stylesheet is available with this project. However, it is very simplistic and it is recommended that you use your own styling.
 
