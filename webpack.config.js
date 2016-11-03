@@ -2,6 +2,7 @@ module.exports = {
   entry: "./index.js",
   output: {
     path: __dirname,
+    publicPath: '/build/',
     filename: "build/example.js"
   },
   module: {
