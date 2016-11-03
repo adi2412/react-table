@@ -1,12 +1,13 @@
 {
-  "name": "react-table",
+  "name": "reacttable",
   "version": "0.1.0",
   "description": "React Table is a simple, light-weight table built on React. It makes no assumptions about your data and allows the user to define how the table reacts to pagination, filtering and sorting.",
   "main": "dist/react-table.js",
   "files": [
     "dist/react-table.js",
-    "dist/styles/style.css"
-  ]
+    "dist/styles/style.css",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "gulp",
     "dist": "gulp lib lib-styles",
