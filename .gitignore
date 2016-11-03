@@ -25,7 +25,6 @@ node_modules/
 # output folder.
 public/
 build/
-dist/
 
 # Logs folder
 logs/

@@ -1,0 +1,40 @@
+.react-table {
+  margin-top: 50px; }
+  .react-table .filter {
+    width: 60%;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+    .react-table .filter input {
+      width: 50%;
+      height: 30px;
+      margin: 0 auto; }
+  .react-table table {
+    width: 60%;
+    max-width: 60%;
+    margin: 0 auto;
+    border: 1px solid #eee; }
+    .react-table table th,
+    .react-table table td {
+      padding: .75rem;
+      vertical-align: top;
+      text-align: center;
+      border-top: 1px solid #eee; }
+    .react-table table thead th {
+      vertical-align: bottom;
+      border-bottom: 2px solid #eee; }
+    .react-table table tbody + tbody {
+      border-top: 2px solid #eee; }
+  .react-table .pagination {
+    width: 30%;
+    max-width: 30%;
+    margin: 0 auto;
+    margin-top: 20px; }
+    .react-table .pagination .previous-page {
+      float: left;
+      cursor: pointer;
+      text-decoration: underline; }
+    .react-table .pagination .next-page {
+      float: right;
+      cursor: pointer;
+      text-decoration: underline; }

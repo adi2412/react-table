@@ -76,6 +76,14 @@ You can add styling to the table by passing CSS classes or IDs using the default
 
 A basic stylesheet is available with this project. However, it is very simplistic and it is recommended that you use your own styling.
 
+# Development
+
+* Clone this repository.
+* Run `npm install`
+* Run dev watch builds- `npm start`
+
+To create a build, run `npm run dist`.
+
 # License
 
 MIT License
