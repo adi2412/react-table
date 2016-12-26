@@ -71,7 +71,7 @@ class ReactTable extends React.Component{
   renderPagination()
   {
     return (
-      <div className="pagination">
+      <div className="rt-pagination">
         {this.state.currentPage != 1? <div className="previous-page"><a onClick={this.showPrevious.bind(this)}>Previous</a></div> : ''}
         <div className="next-page"><a onClick={this.showNext.bind(this)}>Next</a></div>
       </div>
@@ -93,7 +93,7 @@ class ReactTable extends React.Component{
     return (
       <div className="react-table">
         {this.props.onFilter? 
-          <div className="filter"><input type="text" placeholder="Search table" value={this.state.filterInput} onChange={this.onFilterInputChange.bind(this)}/></div> 
+          <div className="rt-filter"><input type="text" placeholder="Search table" value={this.state.filterInput} onChange={this.onFilterInputChange.bind(this)}/></div> 
           : ''
         }
         <table {...props}>

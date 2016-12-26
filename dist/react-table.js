@@ -99,7 +99,7 @@ var ReactTable = function (_React$Component) {
     value: function renderPagination() {
       return _react2.default.createElement(
         'div',
-        { className: 'pagination' },
+        { className: 'rt-pagination' },
         this.state.currentPage != 1 ? _react2.default.createElement(
           'div',
           { className: 'previous-page' },
@@ -146,7 +146,7 @@ var ReactTable = function (_React$Component) {
         { className: 'react-table' },
         this.props.onFilter ? _react2.default.createElement(
           'div',
-          { className: 'filter' },
+          { className: 'rt-filter' },
           _react2.default.createElement('input', { type: 'text', placeholder: 'Search table', value: this.state.filterInput, onChange: this.onFilterInputChange.bind(this) })
         ) : '',
         _react2.default.createElement(

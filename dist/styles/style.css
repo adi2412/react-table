@@ -1,11 +1,11 @@
 .react-table {
   margin-top: 50px; }
-  .react-table .filter {
+  .react-table .rt-filter {
     width: 60%;
     max-width: 60%;
     margin: 0 auto;
     margin-bottom: 10px; }
-    .react-table .filter input {
+    .react-table .rt-filter input {
       width: 50%;
       height: 30px;
       margin: 0 auto; }
@@ -25,16 +25,16 @@
       border-bottom: 2px solid #eee; }
     .react-table table tbody + tbody {
       border-top: 2px solid #eee; }
-  .react-table .pagination {
+  .react-table .rt-pagination {
     width: 30%;
     max-width: 30%;
     margin: 0 auto;
     margin-top: 20px; }
-    .react-table .pagination .previous-page {
+    .react-table .rt-pagination .previous-page {
       float: left;
       cursor: pointer;
       text-decoration: underline; }
-    .react-table .pagination .next-page {
+    .react-table .rt-pagination .next-page {
       float: right;
       cursor: pointer;
       text-decoration: underline; }

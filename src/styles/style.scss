@@ -1,6 +1,6 @@
 .react-table {
 	margin-top: 50px;
-	.filter{
+	.rt-filter{
 		width: 60%;
 		max-width: 60%;
 		margin: 0 auto;
@@ -33,7 +33,7 @@
 		}
 	}
 
-	.pagination{
+	.rt-pagination{
 		width: 30%;
 		max-width: 30%;
 		margin: 0 auto;
