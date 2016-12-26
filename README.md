@@ -76,6 +76,10 @@ You can add styling to the table by passing CSS classes or IDs using the default
 
 A basic stylesheet is available with this project. However, it is very simplistic and it is recommended that you use your own styling.
 
+## Examples
+
+The Examples folder contains different examples to demonstrate the features of React Table.
+
 # Development
 
 * Clone this repository.
